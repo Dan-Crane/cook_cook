@@ -1,0 +1,21 @@
+{
+    "uid":"uid",
+    "title":"title",
+    "description":"description",
+    "img":"img",
+    "portion": 1,
+    "time": 10,
+    "ingridients": [
+      {
+        "type" : "ingrediend",
+        "title" : "title"
+      }
+    ],
+    "steps": [
+      {
+        "step" : 1,
+        "img" : "img",
+        "title" : "title"
+      }
+    ]
+}
