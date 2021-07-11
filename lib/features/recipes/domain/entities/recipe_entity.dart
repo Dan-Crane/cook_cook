@@ -26,19 +26,6 @@ class RecipeEntity extends Equatable {
   });
 
   @override
-  List<Object> get props {
-    final id = this.id;
-
-    return [
-      if (id != null) id,
-      uid,
-      title,
-      description,
-      img,
-      portion,
-      time,
-      ingridients,
-      steps,
-    ];
-  }
+  List<Object?> get props =>
+      [id, uid, title, description, img, portion, time, ingridients, steps];
 }
