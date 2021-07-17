@@ -15,7 +15,7 @@ class RecipesRepositoryImpl
 
   Future<Either<Failure, List<RecipeEntity>>> getRecipes() async {
     return handleException(() async {
-      final response = await _datasourcesImpl.fetchRecipes();
+      final response = await _datasourcesImpl.getRecipes();
 
       return response.map((e) => e.toEntity).toList();
     }());
