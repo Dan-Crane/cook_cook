@@ -5,7 +5,9 @@ import 'package:cook_cook/features/recipes/data/models/recipe_model.dart';
 import 'package:cook_cook/features/recipes/domain/entities/recipe_entity.dart';
 import 'package:cook_cook/features/recipes/domain/repositories/recipes_repository.dart';
 import 'package:dartz/dartz.dart';
+import 'package:injectable/injectable.dart';
 
+@LazySingleton(as: RecipesRepository)
 class RecipesRepositoryImpl
     with RepositoryHandleExceptionMixin
     implements RecipesRepository {

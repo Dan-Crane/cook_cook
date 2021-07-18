@@ -3,7 +3,9 @@ import 'package:cook_cook/core/usecases/usecase.dart';
 import 'package:cook_cook/features/recipes/domain/entities/recipe_entity.dart';
 import 'package:cook_cook/features/recipes/domain/repositories/recipes_repository.dart';
 import 'package:dartz/dartz.dart';
+import 'package:injectable/injectable.dart';
 
+@LazySingleton()
 class GetRecipes implements UseCase<List<RecipeEntity>, NoParams> {
   final RecipesRepository repository;
 
