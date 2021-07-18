@@ -1,4 +1,4 @@
-import 'package:cook_cook/core/errors/error_exceprions.dart';
+import 'package:cook_cook/core/errors/error_exceptions.dart';
 import 'package:cook_cook/core/services/logger.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';

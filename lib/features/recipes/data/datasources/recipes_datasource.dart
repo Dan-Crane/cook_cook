@@ -1,6 +1,6 @@
 import 'package:injectable/injectable.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cook_cook/core/errors/error_exceprions.dart';
+import 'package:cook_cook/core/errors/error_exceptions.dart';
 import 'package:cook_cook/features/recipes/data/models/recipe_model.dart';
 
 abstract class RecipesDatasource {
