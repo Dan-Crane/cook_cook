@@ -19,6 +19,7 @@ class AppThemeData {
   final Color secondHighlightColor;
 
   static const FONT_FAMILY = 'CeraPro';
+  static const FONT_FAMILY_ACCENT = 'Kurale';
   static const baseSize = 8.0;
   final inputPadding = const EdgeInsets.symmetric(
     horizontal: baseSize * 2,
