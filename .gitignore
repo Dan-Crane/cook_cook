@@ -1,3 +1,17 @@
+lib/generated
+android/android_signing_keystore.jks
+android/google_play_api_key.json
+android/key.properties
+coverage
+rspec.xml
+**/fastlane/report.xml
+/web
+/linux
+*.g.dart
+*.mocks.dart
+# injectable generated files
+*.config.dart 
+
 # Miscellaneous
 *.class
 *.log
@@ -44,3 +58,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+*.plist
+android/app/google-services.json
