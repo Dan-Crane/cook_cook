@@ -8,6 +8,9 @@ rspec.xml
 /web
 /linux
 *.g.dart
+*.mocks.dart
+# injectable generated files
+*.config.dart 
 
 # Miscellaneous
 *.class
